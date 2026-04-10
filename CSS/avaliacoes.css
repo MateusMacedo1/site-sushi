@@ -50,7 +50,7 @@
     color: var(--color-primary-6);
 }
 
-.btn-ver{
+.btn-var{
     display: flex;
     justify-content: right;
     margin-bottom: 20px;
@@ -67,7 +67,7 @@
     .feedback{
         flex-direction: column;
     }
-    .btn-ver{
+    .btn-var{
         display: flex;
         justify-content: right;
         margin: 20px auto;
