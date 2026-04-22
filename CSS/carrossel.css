@@ -1,0 +1,65 @@
+.area-carrossel{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.track{
+    display: flex;
+    width: max-content;
+    gap: 20px;
+    animation: carrossel 13.5s linear infinite;
+}
+
+.track img{
+    width: 250px;
+    /* margin-right: 20px; */
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10%;
+    
+}
+
+@keyframes carrossel{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-1890px);
+    }
+}
+
+.area-carrossel-principal{
+    position: relative;
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+}
+
+.area-carrossel-principal{
+    display: flex;
+    transition: transform 0.5s ease;
+
+}
+
+.area-carrossel-principal img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.area-carrossel-principal button{
+    z-index: 10;
+    position: absolute;
+    color: aliceblue;
+    top: 50%;
+}
+
+.area-carrossel-principal button:first-of-type{
+    left: 10px;
+}
+
+.area-carrossel-principal button:last-of-type{
+    right: 10px;
+}
