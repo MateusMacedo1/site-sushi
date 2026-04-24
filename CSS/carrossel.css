@@ -21,6 +21,11 @@
     
 }
 
+track:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
 @keyframes carrossel{
     from{
         transform: translateX(0);
