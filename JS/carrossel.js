@@ -12,6 +12,6 @@ function next(){
 }
 
 function prev(){
-    index = (index - 1) % total;
+    index = (index - 1 + total) % total;
     update();
 }
